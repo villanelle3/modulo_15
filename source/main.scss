@@ -1,15 +1,5 @@
-$branco: #fff;
-$verde: #44bd32;
-$verdinho: #4cd137; 
-$azul:  #182C61;
-$fundo: #f5f6fa;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-}
+@import "colors";
+@import "reset";
 
 body {
     background-color: $fundo;
@@ -83,5 +73,26 @@ section {
 
     &:hover{
         background-color: $verdinho;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
     }
 }
