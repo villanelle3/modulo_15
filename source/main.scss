@@ -1,6 +1,10 @@
 @import "colors";
 @import "reset";
 
+@mixin block {
+    display: block;
+}
+
 body {
     background-color: $fundo;
 }
@@ -62,7 +66,7 @@ section {
 }
 
 .product-button {
-    display: block;
+    @include block;
     background-color: $verde;
     color: $branco;
     text-align: center;
@@ -89,7 +93,7 @@ section {
 
 @media screen and (max-width: 767px) {
     .products {
-        display: block;
+        @include block;
     }
 
     .product-item  {
