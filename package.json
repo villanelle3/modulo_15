@@ -1,0 +1,23 @@
+{
+  "name": "modulo_15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villanelle3/modulo_15.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villanelle3/modulo_15/issues"
+  },
+  "homepage": "https://github.com/villanelle3/modulo_15#readme",
+  "devDependencies": {
+    "sass": "^1.58.0"
+  }
+}
