@@ -5,6 +5,14 @@
     display: block;
 }
 
+@function soma($numeros...) {
+    $soma: 0;
+    @each $numero in $numeros {
+        $soma: $soma + $numero;
+    }
+    @return $aoma;
+}
+
 body {
     background-color: $fundo;
 }
@@ -14,7 +22,7 @@ li {
 }
 
 .container {
-    max-width: 1024px;
+    max-width: sum(1000px, 24px);
     width: 100%;
     margin: 0 auto;
 }
