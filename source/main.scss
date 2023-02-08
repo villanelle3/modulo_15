@@ -10,7 +10,7 @@
     @each $numero in $numeros {
         $soma: $soma + $numero;
     }
-    @return $aoma;
+    @return $soma;
 }
 
 body {
